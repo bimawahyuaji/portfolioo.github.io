@@ -766,6 +766,14 @@ h3.my-profession {
 }
 
 /* Responsive */
+@media (max-width:1230px) {
+    .home-img::after {
+        right: 10;
+    }
+    .home-img::before {
+        left: 10;
+    }
+}
 
 @media (max-width:1199px)
 {
